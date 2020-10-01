@@ -25,8 +25,10 @@ def faulty_calculator():
         if first_number == 56 and second_number == 6:
             print('The qoutient is 4')
 
-        else:
+        elif second_number!=0:
             print(f'The qoutient is {first_number / second_number}')
+        else:
+            print("Can't Divide by zero.")
 
     else:
         print("Try running the code again")
